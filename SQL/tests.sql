@@ -1,3 +1,4 @@
+
 -- Basic select
 
 SELECT population FROM world
@@ -440,3 +441,4 @@ WHERE StopA.name = 'Craiglockhart'
 AND StopA.id = RouteA.stop
 AND RouteA.company = RouteB.company AND RouteA.num = RouteB.num
 AND RouteB.stop = StopB.id
+
